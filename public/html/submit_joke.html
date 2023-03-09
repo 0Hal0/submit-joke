@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/script.js"></script>
+    <title>Document</title>
+</head>
+<body onload="getJokeTypes();">
+
+    <label> Joke type:
+        <select id="type-select">
+        </select>
+    </label>
+    <br>
+    <label>Joke Setup:
+        <input id="setup" type="text">
+    </label>
+    <br>
+    <label>Joke Pubchline:
+        <input id="punchline" type="text">
+    </label>
+    <p id="message"></p>
+    <button onclick="submitJoke();">Submit Joke</button>
+
+</body>
+</html>
